@@ -59,3 +59,13 @@ ul, ol {
     text-align: left; /* Текст внутри списка слева */
     padding-left: 20px; /* Чтобы маркеры не прижимались к краю */
 }
+@media (max-width: 768px) and (orientation: landscape) {
+    body {
+        flex-direction: row;
+         justify-content: center;
+    }
+    .container {
+        width: 80%;
+        padding: 10px;
+    }
+}
