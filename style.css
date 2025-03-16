@@ -59,6 +59,18 @@ ul, ol {
     text-align: left; /* Текст внутри списка слева */
     padding-left: 20px; /* Чтобы маркеры не прижимались к краю */
 }
+@media (max-width: 768px) {
+	.container {
+		width: 95%;
+		padding: 15px;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	p {
+		font-size: 0.9rem;
+	}
+}
 @media (max-width: 768px) and (orientation: landscape) {
     body {
         flex-direction: row;
