@@ -31,7 +31,16 @@ iframe, video, img {
     height: auto;
     display: block;
 }
-
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	z-index: -1;
+}
 table, ul, ol {
     max-width: 100%;
     width: auto;
@@ -39,7 +48,6 @@ table, ul, ol {
     overflow-x: auto;
     margin: 0 auto;
     text-align: left;
-    padding-left: 20px;
 }
 
 h1 {
@@ -67,4 +75,12 @@ h3 {
         right: 10px;
         bottom: 10px;
     }
+}
+a:hover {
+    text-shadow: 5px 5px 15px rgba(0, 255, 0, 0.5);
+	font-weight: bold;
+}
+::selection {
+  background-color: green; /* Цвет фона выделенного текста */
+  color: white; /* Цвет текста */
 }
