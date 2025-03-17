@@ -81,3 +81,8 @@ ul, ol {
         padding: 10px;
     }
 }
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
