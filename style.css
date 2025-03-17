@@ -86,3 +86,7 @@ img, video, iframe {
     height: auto;
     display: block;
 }
+::selection {
+  background-color: green;
+  color: white;
+}
