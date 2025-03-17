@@ -61,7 +61,7 @@ ul, ol {
 }
 @media (max-width: 768px) {
 	.container {
-		width: 95%;
+		width: 100%;
 		padding: 15px;
 	}
 	h1 {
